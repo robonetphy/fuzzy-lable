@@ -1,0 +1,121 @@
+.label-create-container {
+  border: 1px solid #e1e4e8;
+  margin: 3% 10%;
+  border-radius: 5px;
+  background-color: #f6f8fa;
+  border-color: #d1d5da;
+  padding: 2%;
+}
+.label-list-container {
+  margin: 3% 10%;
+  margin-bottom: 0%;
+}
+.label-list-header-container {
+  border: 1px solid #e1e4e8;
+  background-color: #f6f8fa;
+  border-color: #d1d5da;
+  padding: 1.5% 6%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: 600;
+}
+
+.label-sublist-container {
+  border: 1px solid #e1e4e8;
+  border-color: #d1d5da;
+  padding: 1.5% 5%;
+  padding-left: 2%;
+}
+.label-sublist-container:last-of-type {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.label-input-container {
+  display: inline-block;
+  margin: 1%;
+  margin-left: 4%;
+}
+.label-input-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.label-input-control::placeholder {
+  opacity: 0.5;
+}
+.label-preview-container {
+  display: inline-block;
+  margin-left: 4%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  border-radius: 0.25rem;
+  background-color: #000;
+  font-weight: 600;
+}
+.label-color-container-width {
+  width: 6%;
+  margin-left: 0%;
+}
+.label-description-container-width {
+  width: 25%;
+}
+.label-createbtn-container {
+  margin-left: 0%;
+}
+.label-btn {
+  color: #24292e;
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+  cursor: pointer;
+}
+.label-btn:hover {
+  background-color: #e6ebf1;
+  background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);
+  background-position: -0.5em;
+  border-color: rgba(27, 31, 35, 0.35);
+}
+.label-btn-primary {
+  color: #fff;
+  background-color: #28a745;
+  background-image: linear-gradient(-180deg, #34d058, #28a745 90%);
+  cursor: pointer;
+}
+.label-btn-primary:hover {
+  background-color: #269f42;
+  background-image: linear-gradient(-180deg, #2fcb53, #269f42 90%);
+  background-position: -0.5em;
+  border-color: rgba(27, 31, 35, 0.5);
+}
+button:disabled:hover,
+button[disabled] {
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: #94d3a2;
+  background-image: none;
+  border-color: rgba(27, 31, 35, 0.2);
+  box-shadow: none;
+}
+.label-sublist-description {
+  display: inline-block;
+  color: #586069;
+  width: 50%;
+  margin-left: 12%;
+}
+.label-sublist-delete {
+  display: inline-block;
+  margin-left: 12%;
+  color: #586069;
+  cursor: pointer;
+}
+.label-sublist-delete:hover {
+  color: #0366d6;
+}
