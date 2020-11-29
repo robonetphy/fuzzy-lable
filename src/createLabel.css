@@ -24,11 +24,13 @@
   border: 1px solid #e1e4e8;
   border-color: #d1d5da;
   padding: 1.5% 5%;
-  padding-left: 2%;
 }
 .label-sublist-container:last-of-type {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.label-sublist-container > div {
+  display: inline-block;
 }
 .label-input-container {
   display: inline-block;
@@ -107,15 +109,26 @@ button[disabled] {
 .label-sublist-description {
   display: inline-block;
   color: #586069;
-  width: 50%;
-  margin-left: 12%;
 }
-.label-sublist-delete {
-  display: inline-block;
-  margin-left: 12%;
+.label-sublist-delete,
+.label-sublist-edit {
   color: #586069;
   cursor: pointer;
 }
-.label-sublist-delete:hover {
+.label-sublist-delete:hover,
+.label-sublist-edit:hover {
   color: #0366d6;
+}
+.label-sublist-label-space {
+  width: 30%;
+}
+.label-sublist-description-space {
+  width: 55%;
+}
+.label-sublist-action-space {
+  width: 12%;
+}
+.label-sublist-action-space > div {
+  display: inline-block;
+  width: 50%;
 }
